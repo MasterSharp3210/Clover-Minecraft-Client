@@ -1,0 +1,222 @@
+Symbol range map extraction starting
+Processing 5 files
+processing com\itelcan3\cloverclient\Main.java
+@|com\itelcan3\cloverclient\Main.java|8|33|com.itelcan3.cloverclient|package|com.itelcan3.cloverclient|(file)
+Class Start: com.itelcan3.cloverclient.Main
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\itelcan3\cloverclient\Main.java|706|713|preInit|method|com.itelcan3.cloverclient.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\itelcan3\cloverclient\Main.java|714|739|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\itelcan3\cloverclient\Main.java|740|745|event|param|com.itelcan3.cloverclient.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\itelcan3\cloverclient\Main.java|867|881|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\itelcan3\cloverclient\Main.java|882|891|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\itelcan3\cloverclient\Main.java|892|900|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\itelcan3\cloverclient\Main.java|905|928|MainMenuOverrideHandler|class|com.itelcan3.cloverclient.client.MainMenuOverrideHandler
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\itelcan3\cloverclient\Main.java|978|982|init|method|com.itelcan3.cloverclient.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\itelcan3\cloverclient\Main.java|983|1005|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\itelcan3\cloverclient\Main.java|1006|1011|event|param|com.itelcan3.cloverclient.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\itelcan3\cloverclient\Main.java|1077|1088|CapeHandler|class|com.itelcan3.cloverclient.client.CapeHandler
+      @|com\itelcan3\cloverclient\Main.java|1089|1099|initFolder|method|com.itelcan3.cloverclient.client.CapeHandler|initFolder|()V
+      @|com\itelcan3\cloverclient\Main.java|1195|1211|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler
+      @|com\itelcan3\cloverclient\Main.java|1212|1220|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+      @|com\itelcan3\cloverclient\Main.java|1223|1226|bus|method|net.minecraftforge.fml.common.FMLCommonHandler|bus|()Lnet/minecraftforge/fml/common/eventhandler/EventBus;
+      @|com\itelcan3\cloverclient\Main.java|1229|1237|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\itelcan3\cloverclient\Main.java|1242|1260|ClientEventHandler|class|com.itelcan3.cloverclient.client.ClientEventHandler
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : com.itelcan3.cloverclient.Main
+endProcessing com\itelcan3\cloverclient\Main.java
+
+processing com\itelcan3\cloverclient\client\CapeHandler.java
+@|com\itelcan3\cloverclient\client\CapeHandler.java|8|40|com.itelcan3.cloverclient.client|package|com.itelcan3.cloverclient.client|(file)
+Class Start: com.itelcan3.cloverclient.client.CapeHandler
+   @|com\itelcan3\cloverclient\client\CapeHandler.java|392|408|ResourceLocation|class|net.minecraft.util.ResourceLocation
+   @|com\itelcan3\cloverclient\client\CapeHandler.java|409|422|INTERNAL_CAPE|field|com.itelcan3.cloverclient.client.CapeHandler|INTERNAL_CAPE|
+   @|com\itelcan3\cloverclient\client\CapeHandler.java|429|445|ResourceLocation|class|net.minecraft.util.ResourceLocation
+   Method Start: initFolder()V
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|508|518|initFolder|method|com.itelcan3.cloverclient.client.CapeHandler|initFolder|()V
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|654|660|System|class|java.lang.System
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|661|664|out|field|java.lang.System|out
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|665|672|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+   Method End: initFolder()V
+   Method Start: apply()V
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|752|757|apply|method|com.itelcan3.cloverclient.client.CapeHandler|apply|()V
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|770|779|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|785|794|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|795|807|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|826|835|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|850|863|getNetHandler|method|net.minecraft.client.Minecraft|getNetHandler|()Lnet/minecraft/client/network/NetHandlerPlayClient;
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|892|912|AbstractClientPlayer|class|net.minecraft.client.entity.AbstractClientPlayer
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|925|934|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|944|961|NetworkPlayerInfo|class|net.minecraft.client.network.NetworkPlayerInfo
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|972|985|getNetHandler|method|net.minecraft.client.Minecraft|getNetHandler|()Lnet/minecraft/client/network/NetHandlerPlayClient;
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|988|1001|getPlayerInfo|method|net.minecraft.client.network.NetHandlerPlayClient|getPlayerInfo|(Ljava/util/UUID;)Lnet/minecraft/client/network/NetworkPlayerInfo;
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1009|1020|getUniqueID|method|net.minecraft.entity.Entity|getUniqueID|()Ljava/util/UUID;
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1164|1172|setField|method|com.itelcan3.cloverclient.client.CapeHandler|setField|(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1213|1226|INTERNAL_CAPE|field|com.itelcan3.cloverclient.client.CapeHandler|INTERNAL_CAPE
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1362|1376|getDataWatcher|method|net.minecraft.entity.Entity|getDataWatcher|()Lnet/minecraft/entity/DataWatcher;
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1379|1391|updateObject|method|net.minecraft.entity.DataWatcher|updateObject|(ILjava/lang/Object;)V
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1431|1440|Exception|class|java.lang.Exception
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1462|1468|System|class|java.lang.System
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1469|1472|out|field|java.lang.System|out
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1473|1480|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+   Method End: apply()V
+   Method Start: setField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1594|1602|setField|method|com.itelcan3.cloverclient.client.CapeHandler|setField|(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1603|1609|Object|class|java.lang.Object
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1610|1613|obj|param|com.itelcan3.cloverclient.client.CapeHandler|setField|(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V|obj|0
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1615|1621|String|class|java.lang.String
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1622|1629|srgName|param|com.itelcan3.cloverclient.client.CapeHandler|setField|(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V|srgName|1
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1631|1637|String|class|java.lang.String
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1638|1645|devName|param|com.itelcan3.cloverclient.client.CapeHandler|setField|(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V|devName|2
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1647|1653|Object|class|java.lang.Object
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1654|1659|value|param|com.itelcan3.cloverclient.client.CapeHandler|setField|(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V|value|3
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1689|1694|Field|class|java.lang.reflect.Field
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1736|1739|obj|param|com.itelcan3.cloverclient.client.CapeHandler|setField|(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V|obj|0
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1740|1748|getClass|method|java.lang.Object|getClass|()Ljava/lang/Class;
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1751|1767|getDeclaredField|method|java.lang.Class|getDeclaredField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1768|1775|srgName|param|com.itelcan3.cloverclient.client.CapeHandler|setField|(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V|srgName|1
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1799|1819|NoSuchFieldException|class|java.lang.NoSuchFieldException
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1845|1848|obj|param|com.itelcan3.cloverclient.client.CapeHandler|setField|(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V|obj|0
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1849|1857|getClass|method|java.lang.Object|getClass|()Ljava/lang/Class;
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1860|1876|getDeclaredField|method|java.lang.Class|getDeclaredField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1877|1884|devName|param|com.itelcan3.cloverclient.client.CapeHandler|setField|(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V|devName|2
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1915|1928|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1950|1953|set|method|java.lang.reflect.Field|set|(Ljava/lang/Object;Ljava/lang/Object;)V
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1954|1957|obj|param|com.itelcan3.cloverclient.client.CapeHandler|setField|(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V|obj|0
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1959|1964|value|param|com.itelcan3.cloverclient.client.CapeHandler|setField|(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V|value|3
+      @|com\itelcan3\cloverclient\client\CapeHandler.java|1984|1993|Exception|class|java.lang.Exception
+   Method End: setField(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)V
+Class End  : com.itelcan3.cloverclient.client.CapeHandler
+endProcessing com\itelcan3\cloverclient\client\CapeHandler.java
+
+processing com\itelcan3\cloverclient\client\ClientEventHandler.java
+@|com\itelcan3\cloverclient\client\ClientEventHandler.java|8|40|com.itelcan3.cloverclient.client|package|com.itelcan3.cloverclient.client|(file)
+Class Start: com.itelcan3.cloverclient.client.ClientEventHandler
+   Method Start: onClientTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|com\itelcan3\cloverclient\client\ClientEventHandler.java|239|251|onClientTick|method|com.itelcan3.cloverclient.client.ClientEventHandler|onClientTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+      @|com\itelcan3\cloverclient\client\ClientEventHandler.java|252|277|TickEvent.ClientTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.ClientTickEvent
+      @|com\itelcan3\cloverclient\client\ClientEventHandler.java|278|283|event|param|com.itelcan3.cloverclient.client.ClientEventHandler|onClientTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V|event|0
+      @|com\itelcan3\cloverclient\client\ClientEventHandler.java|368|373|event|param|com.itelcan3.cloverclient.client.ClientEventHandler|onClientTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V|event|0
+      @|com\itelcan3\cloverclient\client\ClientEventHandler.java|374|379|phase|field|net.minecraftforge.fml.common.gameevent.TickEvent|phase
+      @|com\itelcan3\cloverclient\client\ClientEventHandler.java|383|398|TickEvent.Phase|class|net.minecraftforge.fml.common.gameevent.TickEvent.Phase
+      @|com\itelcan3\cloverclient\client\ClientEventHandler.java|399|402|END|field|net.minecraftforge.fml.common.gameevent.TickEvent.Phase|END
+      @|com\itelcan3\cloverclient\client\ClientEventHandler.java|418|429|CapeHandler|class|com.itelcan3.cloverclient.client.CapeHandler
+      @|com\itelcan3\cloverclient\client\ClientEventHandler.java|430|435|apply|method|com.itelcan3.cloverclient.client.CapeHandler|apply|()V
+   Method End: onClientTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V
+Class End  : com.itelcan3.cloverclient.client.ClientEventHandler
+endProcessing com\itelcan3\cloverclient\client\ClientEventHandler.java
+
+processing com\itelcan3\cloverclient\client\CustomGuiMainMenu.java
+@|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|8|40|com.itelcan3.cloverclient.client|package|com.itelcan3.cloverclient.client|(file)
+Class Start: com.itelcan3.cloverclient.client.CustomGuiMainMenu
+   @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|526|542|ResourceLocation|class|net.minecraft.util.ResourceLocation
+   @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|543|561|BACKGROUND_TEXTURE|field|com.itelcan3.cloverclient.client.CustomGuiMainMenu|BACKGROUND_TEXTURE|
+   @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|568|584|ResourceLocation|class|net.minecraft.util.ResourceLocation
+   @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|668|684|ResourceLocation|class|net.minecraft.util.ResourceLocation
+   @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|685|699|MINECRAFT_LOGO|field|com.itelcan3.cloverclient.client.CustomGuiMainMenu|MINECRAFT_LOGO|
+   @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|706|722|ResourceLocation|class|net.minecraft.util.ResourceLocation
+   Method Start: CustomGuiMainMenu()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|772|789|CustomGuiMainMenu|method|com.itelcan3.cloverclient.client.CustomGuiMainMenu|CustomGuiMainMenu|()V
+   Method End: CustomGuiMainMenu()V
+   Method Start: drawScreen(IIF)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|848|858|drawScreen|method|net.minecraft.client.gui.GuiScreen|drawScreen|(IIF)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|863|869|mouseX|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawScreen|(IIF)V|mouseX|0
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|875|881|mouseY|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawScreen|(IIF)V|mouseY|1
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|889|901|partialTicks|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawScreen|(IIF)V|partialTicks|2
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|947|963|drawGradientRect|method|net.minecraft.client.gui.Gui|drawGradientRect|(IIIIII)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|975|980|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|987|993|height|field|net.minecraft.client.gui.GuiScreen|height
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1033|1053|drawCustomBackground|method|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCustomBackground|()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1116|1132|drawCenteredLogo|method|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCenteredLogo|(I)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1204|1214|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1215|1219|size|method|java.util.Collection|size|()I
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1244|1253|GuiButton|class|net.minecraft.client.gui.GuiButton
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1259|1269|buttonList|field|net.minecraft.client.gui.GuiScreen|buttonList
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1270|1273|get|method|java.util.List|get|(I)Ljava/lang/Object;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1278|1288|drawButton|method|net.minecraft.client.gui.GuiButton|drawButton|(Lnet/minecraft/client/Minecraft;II)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1294|1296|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1298|1304|mouseX|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawScreen|(IIF)V|mouseX|0
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1306|1312|mouseY|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawScreen|(IIF)V|mouseY|1
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1338|1348|drawString|method|net.minecraft.client.gui.Gui|drawString|(Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1354|1369|fontRendererObj|field|net.minecraft.client.gui.GuiScreen|fontRendererObj
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1400|1406|height|field|net.minecraft.client.gui.GuiScreen|height
+   Method End: drawScreen(IIF)V
+   Method Start: drawCenteredLogo(I)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1442|1458|drawCenteredLogo|method|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCenteredLogo|(I)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1463|1464|y|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCenteredLogo|(I)V|y|0
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1481|1483|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1484|1501|getTextureManager|method|net.minecraft.client.Minecraft|getTextureManager|()Lnet/minecraft/client/renderer/texture/TextureManager;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1504|1515|bindTexture|method|net.minecraft.client.renderer.texture.TextureManager|bindTexture|(Lnet/minecraft/util/ResourceLocation;)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1516|1530|MINECRAFT_LOGO|field|com.itelcan3.cloverclient.client.CustomGuiMainMenu|MINECRAFT_LOGO
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1541|1555|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1556|1567|enableBlend|method|net.minecraft.client.renderer.GlStateManager|enableBlend|()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1579|1593|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1594|1599|color|method|net.minecraft.client.renderer.GlStateManager|color|(FFFF)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2112|2117|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2370|2391|drawTexturedModalRect|method|net.minecraft.client.gui.Gui|drawTexturedModalRect|(IIIIII)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2401|2402|y|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCenteredLogo|(I)V|y|0
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2433|2454|drawTexturedModalRect|method|net.minecraft.client.gui.Gui|drawTexturedModalRect|(IIIIII)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2470|2471|y|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCenteredLogo|(I)V|y|0
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2507|2521|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2522|2534|disableBlend|method|net.minecraft.client.renderer.GlStateManager|disableBlend|()V
+   Method End: drawCenteredLogo(I)V
+   Method Start: drawCustomBackground()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2562|2582|drawCustomBackground|method|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCustomBackground|()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2600|2602|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2603|2620|getTextureManager|method|net.minecraft.client.Minecraft|getTextureManager|()Lnet/minecraft/client/renderer/texture/TextureManager;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2623|2634|bindTexture|method|net.minecraft.client.renderer.texture.TextureManager|bindTexture|(Lnet/minecraft/util/ResourceLocation;)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2635|2653|BACKGROUND_TEXTURE|field|com.itelcan3.cloverclient.client.CustomGuiMainMenu|BACKGROUND_TEXTURE
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2664|2675|Tessellator|class|net.minecraft.client.renderer.Tessellator
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2690|2701|Tessellator|class|net.minecraft.client.renderer.Tessellator
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2702|2713|getInstance|method|net.minecraft.client.renderer.Tessellator|getInstance|()Lnet/minecraft/client/renderer/Tessellator;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2725|2738|WorldRenderer|class|net.minecraft.client.renderer.WorldRenderer
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2767|2783|getWorldRenderer|method|net.minecraft.client.renderer.Tessellator|getWorldRenderer|()Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2809|2814|begin|method|net.minecraft.client.renderer.WorldRenderer|begin|(ILnet/minecraft/client/renderer/vertex/VertexFormat;)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2818|2838|DefaultVertexFormats|class|net.minecraft.client.renderer.vertex.DefaultVertexFormats
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2839|2851|POSITION_TEX|field|net.minecraft.client.renderer.vertex.DefaultVertexFormats|POSITION_TEX
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2876|2879|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2899|2905|height|field|net.minecraft.client.gui.GuiScreen|height
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2913|2916|tex|method|net.minecraft.client.renderer.WorldRenderer|tex|(DD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2929|2938|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2964|2967|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2981|2986|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3001|3007|height|field|net.minecraft.client.gui.GuiScreen|height
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3015|3018|tex|method|net.minecraft.client.renderer.WorldRenderer|tex|(DD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3031|3040|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3066|3069|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3083|3088|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3102|3105|tex|method|net.minecraft.client.renderer.WorldRenderer|tex|(DD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3118|3127|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3153|3156|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3175|3178|tex|method|net.minecraft.client.renderer.WorldRenderer|tex|(DD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3191|3200|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3224|3228|draw|method|net.minecraft.client.renderer.Tessellator|draw|()V
+   Method End: drawCustomBackground()V
+   Method Start: drawBackground(I)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3269|3283|drawBackground|method|net.minecraft.client.gui.GuiScreen|drawBackground|(I)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3288|3299|p_146278_1_|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawBackground|(I)V|p_146278_1_|0
+   Method End: drawBackground(I)V
+Class End  : com.itelcan3.cloverclient.client.CustomGuiMainMenu
+endProcessing com\itelcan3\cloverclient\client\CustomGuiMainMenu.java
+
+processing com\itelcan3\cloverclient\client\MainMenuOverrideHandler.java
+@|com\itelcan3\cloverclient\client\MainMenuOverrideHandler.java|8|40|com.itelcan3.cloverclient.client|package|com.itelcan3.cloverclient.client|(file)
+Class Start: com.itelcan3.cloverclient.client.MainMenuOverrideHandler
+   Method Start: onGuiOpen(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+      @|com\itelcan3\cloverclient\client\MainMenuOverrideHandler.java|490|499|onGuiOpen|method|com.itelcan3.cloverclient.client.MainMenuOverrideHandler|onGuiOpen|(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+      @|com\itelcan3\cloverclient\client\MainMenuOverrideHandler.java|500|512|GuiOpenEvent|class|net.minecraftforge.client.event.GuiOpenEvent
+      @|com\itelcan3\cloverclient\client\MainMenuOverrideHandler.java|513|518|event|param|com.itelcan3.cloverclient.client.MainMenuOverrideHandler|onGuiOpen|(Lnet/minecraftforge/client/event/GuiOpenEvent;)V|event|0
+      @|com\itelcan3\cloverclient\client\MainMenuOverrideHandler.java|534|539|event|param|com.itelcan3.cloverclient.client.MainMenuOverrideHandler|onGuiOpen|(Lnet/minecraftforge/client/event/GuiOpenEvent;)V|event|0
+      @|com\itelcan3\cloverclient\client\MainMenuOverrideHandler.java|540|543|gui|field|net.minecraftforge.client.event.GuiOpenEvent|gui
+      @|com\itelcan3\cloverclient\client\MainMenuOverrideHandler.java|555|566|GuiMainMenu|class|net.minecraft.client.gui.GuiMainMenu
+      @|com\itelcan3\cloverclient\client\MainMenuOverrideHandler.java|572|577|event|param|com.itelcan3.cloverclient.client.MainMenuOverrideHandler|onGuiOpen|(Lnet/minecraftforge/client/event/GuiOpenEvent;)V|event|0
+      @|com\itelcan3\cloverclient\client\MainMenuOverrideHandler.java|578|581|gui|field|net.minecraftforge.client.event.GuiOpenEvent|gui
+      @|com\itelcan3\cloverclient\client\MainMenuOverrideHandler.java|593|610|CustomGuiMainMenu|class|com.itelcan3.cloverclient.client.CustomGuiMainMenu
+      @|com\itelcan3\cloverclient\client\MainMenuOverrideHandler.java|627|632|event|param|com.itelcan3.cloverclient.client.MainMenuOverrideHandler|onGuiOpen|(Lnet/minecraftforge/client/event/GuiOpenEvent;)V|event|0
+      @|com\itelcan3\cloverclient\client\MainMenuOverrideHandler.java|633|636|gui|field|net.minecraftforge.client.event.GuiOpenEvent|gui
+      @|com\itelcan3\cloverclient\client\MainMenuOverrideHandler.java|643|660|CustomGuiMainMenu|class|com.itelcan3.cloverclient.client.CustomGuiMainMenu
+   Method End: onGuiOpen(Lnet/minecraftforge/client/event/GuiOpenEvent;)V
+Class End  : com.itelcan3.cloverclient.client.MainMenuOverrideHandler
+endProcessing com\itelcan3\cloverclient\client\MainMenuOverrideHandler.java
+
