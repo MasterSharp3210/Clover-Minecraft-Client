@@ -4,25 +4,25 @@ processing com\itelcan3\cloverclient\Main.java
 @|com\itelcan3\cloverclient\Main.java|8|33|com.itelcan3.cloverclient|package|com.itelcan3.cloverclient|(file)
 Class Start: com.itelcan3.cloverclient.Main
    Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|com\itelcan3\cloverclient\Main.java|706|713|preInit|method|com.itelcan3.cloverclient.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|com\itelcan3\cloverclient\Main.java|714|739|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
-      @|com\itelcan3\cloverclient\Main.java|740|745|event|param|com.itelcan3.cloverclient.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|com\itelcan3\cloverclient\Main.java|867|881|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
-      @|com\itelcan3\cloverclient\Main.java|882|891|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
-      @|com\itelcan3\cloverclient\Main.java|892|900|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
-      @|com\itelcan3\cloverclient\Main.java|905|928|MainMenuOverrideHandler|class|com.itelcan3.cloverclient.client.MainMenuOverrideHandler
+      @|com\itelcan3\cloverclient\Main.java|670|677|preInit|method|com.itelcan3.cloverclient.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\itelcan3\cloverclient\Main.java|678|703|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\itelcan3\cloverclient\Main.java|704|709|event|param|com.itelcan3.cloverclient.Main|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\itelcan3\cloverclient\Main.java|831|845|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\itelcan3\cloverclient\Main.java|846|855|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\itelcan3\cloverclient\Main.java|856|864|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\itelcan3\cloverclient\Main.java|869|892|MainMenuOverrideHandler|class|com.itelcan3.cloverclient.client.MainMenuOverrideHandler
    Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|com\itelcan3\cloverclient\Main.java|978|982|init|method|com.itelcan3.cloverclient.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|com\itelcan3\cloverclient\Main.java|983|1005|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|com\itelcan3\cloverclient\Main.java|1006|1011|event|param|com.itelcan3.cloverclient.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
-      @|com\itelcan3\cloverclient\Main.java|1077|1088|CapeHandler|class|com.itelcan3.cloverclient.client.CapeHandler
-      @|com\itelcan3\cloverclient\Main.java|1089|1099|initFolder|method|com.itelcan3.cloverclient.client.CapeHandler|initFolder|()V
-      @|com\itelcan3\cloverclient\Main.java|1195|1211|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler
-      @|com\itelcan3\cloverclient\Main.java|1212|1220|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
-      @|com\itelcan3\cloverclient\Main.java|1223|1226|bus|method|net.minecraftforge.fml.common.FMLCommonHandler|bus|()Lnet/minecraftforge/fml/common/eventhandler/EventBus;
-      @|com\itelcan3\cloverclient\Main.java|1229|1237|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
-      @|com\itelcan3\cloverclient\Main.java|1242|1260|ClientEventHandler|class|com.itelcan3.cloverclient.client.ClientEventHandler
+      @|com\itelcan3\cloverclient\Main.java|942|946|init|method|com.itelcan3.cloverclient.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\itelcan3\cloverclient\Main.java|947|969|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\itelcan3\cloverclient\Main.java|970|975|event|param|com.itelcan3.cloverclient.Main|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\itelcan3\cloverclient\Main.java|1041|1052|CapeHandler|class|com.itelcan3.cloverclient.client.CapeHandler
+      @|com\itelcan3\cloverclient\Main.java|1053|1063|initFolder|method|com.itelcan3.cloverclient.client.CapeHandler|initFolder|()V
+      @|com\itelcan3\cloverclient\Main.java|1159|1175|FMLCommonHandler|class|net.minecraftforge.fml.common.FMLCommonHandler
+      @|com\itelcan3\cloverclient\Main.java|1176|1184|instance|method|net.minecraftforge.fml.common.FMLCommonHandler|instance|()Lnet/minecraftforge/fml/common/FMLCommonHandler;
+      @|com\itelcan3\cloverclient\Main.java|1187|1190|bus|method|net.minecraftforge.fml.common.FMLCommonHandler|bus|()Lnet/minecraftforge/fml/common/eventhandler/EventBus;
+      @|com\itelcan3\cloverclient\Main.java|1193|1201|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|com\itelcan3\cloverclient\Main.java|1206|1224|ClientEventHandler|class|com.itelcan3.cloverclient.client.ClientEventHandler
    Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
 Class End  : com.itelcan3.cloverclient.Main
 endProcessing com\itelcan3\cloverclient\Main.java
@@ -140,62 +140,62 @@ Class Start: com.itelcan3.cloverclient.client.CustomGuiMainMenu
       @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1306|1312|mouseY|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawScreen|(IIF)V|mouseY|1
       @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1338|1348|drawString|method|net.minecraft.client.gui.Gui|drawString|(Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V
       @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1354|1369|fontRendererObj|field|net.minecraft.client.gui.GuiScreen|fontRendererObj
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1400|1406|height|field|net.minecraft.client.gui.GuiScreen|height
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1396|1402|height|field|net.minecraft.client.gui.GuiScreen|height
    Method End: drawScreen(IIF)V
    Method Start: drawCenteredLogo(I)V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1442|1458|drawCenteredLogo|method|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCenteredLogo|(I)V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1463|1464|y|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCenteredLogo|(I)V|y|0
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1481|1483|mc|field|net.minecraft.client.gui.GuiScreen|mc
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1484|1501|getTextureManager|method|net.minecraft.client.Minecraft|getTextureManager|()Lnet/minecraft/client/renderer/texture/TextureManager;
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1504|1515|bindTexture|method|net.minecraft.client.renderer.texture.TextureManager|bindTexture|(Lnet/minecraft/util/ResourceLocation;)V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1516|1530|MINECRAFT_LOGO|field|com.itelcan3.cloverclient.client.CustomGuiMainMenu|MINECRAFT_LOGO
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1541|1555|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1556|1567|enableBlend|method|net.minecraft.client.renderer.GlStateManager|enableBlend|()V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1579|1593|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1594|1599|color|method|net.minecraft.client.renderer.GlStateManager|color|(FFFF)V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2112|2117|width|field|net.minecraft.client.gui.GuiScreen|width
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2370|2391|drawTexturedModalRect|method|net.minecraft.client.gui.Gui|drawTexturedModalRect|(IIIIII)V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2401|2402|y|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCenteredLogo|(I)V|y|0
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2433|2454|drawTexturedModalRect|method|net.minecraft.client.gui.Gui|drawTexturedModalRect|(IIIIII)V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2470|2471|y|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCenteredLogo|(I)V|y|0
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2507|2521|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2522|2534|disableBlend|method|net.minecraft.client.renderer.GlStateManager|disableBlend|()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1438|1454|drawCenteredLogo|method|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCenteredLogo|(I)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1459|1460|y|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCenteredLogo|(I)V|y|0
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1477|1479|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1480|1497|getTextureManager|method|net.minecraft.client.Minecraft|getTextureManager|()Lnet/minecraft/client/renderer/texture/TextureManager;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1500|1511|bindTexture|method|net.minecraft.client.renderer.texture.TextureManager|bindTexture|(Lnet/minecraft/util/ResourceLocation;)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1512|1526|MINECRAFT_LOGO|field|com.itelcan3.cloverclient.client.CustomGuiMainMenu|MINECRAFT_LOGO
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1537|1551|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1552|1563|enableBlend|method|net.minecraft.client.renderer.GlStateManager|enableBlend|()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1575|1589|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|1590|1595|color|method|net.minecraft.client.renderer.GlStateManager|color|(FFFF)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2108|2113|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2366|2387|drawTexturedModalRect|method|net.minecraft.client.gui.Gui|drawTexturedModalRect|(IIIIII)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2397|2398|y|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCenteredLogo|(I)V|y|0
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2429|2450|drawTexturedModalRect|method|net.minecraft.client.gui.Gui|drawTexturedModalRect|(IIIIII)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2466|2467|y|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCenteredLogo|(I)V|y|0
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2503|2517|GlStateManager|class|net.minecraft.client.renderer.GlStateManager
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2518|2530|disableBlend|method|net.minecraft.client.renderer.GlStateManager|disableBlend|()V
    Method End: drawCenteredLogo(I)V
    Method Start: drawCustomBackground()V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2562|2582|drawCustomBackground|method|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCustomBackground|()V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2600|2602|mc|field|net.minecraft.client.gui.GuiScreen|mc
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2603|2620|getTextureManager|method|net.minecraft.client.Minecraft|getTextureManager|()Lnet/minecraft/client/renderer/texture/TextureManager;
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2623|2634|bindTexture|method|net.minecraft.client.renderer.texture.TextureManager|bindTexture|(Lnet/minecraft/util/ResourceLocation;)V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2635|2653|BACKGROUND_TEXTURE|field|com.itelcan3.cloverclient.client.CustomGuiMainMenu|BACKGROUND_TEXTURE
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2664|2675|Tessellator|class|net.minecraft.client.renderer.Tessellator
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2690|2701|Tessellator|class|net.minecraft.client.renderer.Tessellator
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2702|2713|getInstance|method|net.minecraft.client.renderer.Tessellator|getInstance|()Lnet/minecraft/client/renderer/Tessellator;
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2725|2738|WorldRenderer|class|net.minecraft.client.renderer.WorldRenderer
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2767|2783|getWorldRenderer|method|net.minecraft.client.renderer.Tessellator|getWorldRenderer|()Lnet/minecraft/client/renderer/WorldRenderer;
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2809|2814|begin|method|net.minecraft.client.renderer.WorldRenderer|begin|(ILnet/minecraft/client/renderer/vertex/VertexFormat;)V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2818|2838|DefaultVertexFormats|class|net.minecraft.client.renderer.vertex.DefaultVertexFormats
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2839|2851|POSITION_TEX|field|net.minecraft.client.renderer.vertex.DefaultVertexFormats|POSITION_TEX
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2876|2879|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2899|2905|height|field|net.minecraft.client.gui.GuiScreen|height
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2913|2916|tex|method|net.minecraft.client.renderer.WorldRenderer|tex|(DD)Lnet/minecraft/client/renderer/WorldRenderer;
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2929|2938|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2964|2967|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2981|2986|width|field|net.minecraft.client.gui.GuiScreen|width
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3001|3007|height|field|net.minecraft.client.gui.GuiScreen|height
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3015|3018|tex|method|net.minecraft.client.renderer.WorldRenderer|tex|(DD)Lnet/minecraft/client/renderer/WorldRenderer;
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3031|3040|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3066|3069|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3083|3088|width|field|net.minecraft.client.gui.GuiScreen|width
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3102|3105|tex|method|net.minecraft.client.renderer.WorldRenderer|tex|(DD)Lnet/minecraft/client/renderer/WorldRenderer;
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3118|3127|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3153|3156|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3175|3178|tex|method|net.minecraft.client.renderer.WorldRenderer|tex|(DD)Lnet/minecraft/client/renderer/WorldRenderer;
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3191|3200|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3224|3228|draw|method|net.minecraft.client.renderer.Tessellator|draw|()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2558|2578|drawCustomBackground|method|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawCustomBackground|()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2596|2598|mc|field|net.minecraft.client.gui.GuiScreen|mc
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2599|2616|getTextureManager|method|net.minecraft.client.Minecraft|getTextureManager|()Lnet/minecraft/client/renderer/texture/TextureManager;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2619|2630|bindTexture|method|net.minecraft.client.renderer.texture.TextureManager|bindTexture|(Lnet/minecraft/util/ResourceLocation;)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2631|2649|BACKGROUND_TEXTURE|field|com.itelcan3.cloverclient.client.CustomGuiMainMenu|BACKGROUND_TEXTURE
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2660|2671|Tessellator|class|net.minecraft.client.renderer.Tessellator
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2686|2697|Tessellator|class|net.minecraft.client.renderer.Tessellator
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2698|2709|getInstance|method|net.minecraft.client.renderer.Tessellator|getInstance|()Lnet/minecraft/client/renderer/Tessellator;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2721|2734|WorldRenderer|class|net.minecraft.client.renderer.WorldRenderer
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2763|2779|getWorldRenderer|method|net.minecraft.client.renderer.Tessellator|getWorldRenderer|()Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2805|2810|begin|method|net.minecraft.client.renderer.WorldRenderer|begin|(ILnet/minecraft/client/renderer/vertex/VertexFormat;)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2814|2834|DefaultVertexFormats|class|net.minecraft.client.renderer.vertex.DefaultVertexFormats
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2835|2847|POSITION_TEX|field|net.minecraft.client.renderer.vertex.DefaultVertexFormats|POSITION_TEX
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2872|2875|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2895|2901|height|field|net.minecraft.client.gui.GuiScreen|height
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2909|2912|tex|method|net.minecraft.client.renderer.WorldRenderer|tex|(DD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2925|2934|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2960|2963|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2977|2982|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|2997|3003|height|field|net.minecraft.client.gui.GuiScreen|height
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3011|3014|tex|method|net.minecraft.client.renderer.WorldRenderer|tex|(DD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3027|3036|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3062|3065|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3079|3084|width|field|net.minecraft.client.gui.GuiScreen|width
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3098|3101|tex|method|net.minecraft.client.renderer.WorldRenderer|tex|(DD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3114|3123|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3149|3152|pos|method|net.minecraft.client.renderer.WorldRenderer|pos|(DDD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3171|3174|tex|method|net.minecraft.client.renderer.WorldRenderer|tex|(DD)Lnet/minecraft/client/renderer/WorldRenderer;
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3187|3196|endVertex|method|net.minecraft.client.renderer.WorldRenderer|endVertex|()V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3220|3224|draw|method|net.minecraft.client.renderer.Tessellator|draw|()V
    Method End: drawCustomBackground()V
    Method Start: drawBackground(I)V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3269|3283|drawBackground|method|net.minecraft.client.gui.GuiScreen|drawBackground|(I)V
-      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3288|3299|p_146278_1_|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawBackground|(I)V|p_146278_1_|0
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3265|3279|drawBackground|method|net.minecraft.client.gui.GuiScreen|drawBackground|(I)V
+      @|com\itelcan3\cloverclient\client\CustomGuiMainMenu.java|3284|3295|p_146278_1_|param|com.itelcan3.cloverclient.client.CustomGuiMainMenu|drawBackground|(I)V|p_146278_1_|0
    Method End: drawBackground(I)V
 Class End  : com.itelcan3.cloverclient.client.CustomGuiMainMenu
 endProcessing com\itelcan3\cloverclient\client\CustomGuiMainMenu.java

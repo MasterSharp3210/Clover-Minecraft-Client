@@ -33477,50 +33477,50 @@ Rename method net/minecraft/client/gui/GuiButton/drawButton (Lnet/minecraft/clie
 Rename field net/minecraft/client/gui/GuiScreen/mc[1320,1322]::mc->field_146297_k
 Rename method net/minecraft/client/gui/Gui/drawString (Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;III)V[1376,1386]::drawString->func_73731_b
 Rename field net/minecraft/client/gui/GuiScreen/fontRendererObj[1394,1409]::fontRendererObj->field_146289_q
-Rename field net/minecraft/client/gui/GuiScreen/height[1439,1445]::height->field_146295_m
+Rename field net/minecraft/client/gui/GuiScreen/height[1435,1441]::height->field_146295_m
 [method, com/itelcan3/cloverclient/client/CustomGuiMainMenu/drawCenteredLogo, (I)V]
-Rename field net/minecraft/client/gui/GuiScreen/mc[1528,1530]::mc->field_146297_k
-Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[1543,1560]::getTextureManager->func_110434_K
-Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[1559,1570]::bindTexture->func_110577_a
-Rename class net/minecraft/client/renderer/GlStateManager[1598,1612]::GlStateManager->GlStateManager
-Rename method net/minecraft/client/renderer/GlStateManager/enableBlend ()V[1613,1624]::enableBlend->func_179147_l
-Rename class net/minecraft/client/renderer/GlStateManager[1638,1652]::GlStateManager->GlStateManager
-Rename method net/minecraft/client/renderer/GlStateManager/color (FFFF)V[1653,1658]::color->func_179131_c
-Rename field net/minecraft/client/gui/GuiScreen/width[2179,2184]::width->field_146294_l
-Rename method net/minecraft/client/gui/Gui/drawTexturedModalRect (IIIIII)V[2446,2467]::drawTexturedModalRect->func_73729_b
-Rename method net/minecraft/client/gui/Gui/drawTexturedModalRect (IIIIII)V[2500,2521]::drawTexturedModalRect->func_73729_b
-Rename class net/minecraft/client/renderer/GlStateManager[2565,2579]::GlStateManager->GlStateManager
-Rename method net/minecraft/client/renderer/GlStateManager/disableBlend ()V[2580,2592]::disableBlend->func_179084_k
+Rename field net/minecraft/client/gui/GuiScreen/mc[1524,1526]::mc->field_146297_k
+Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[1539,1556]::getTextureManager->func_110434_K
+Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[1555,1566]::bindTexture->func_110577_a
+Rename class net/minecraft/client/renderer/GlStateManager[1594,1608]::GlStateManager->GlStateManager
+Rename method net/minecraft/client/renderer/GlStateManager/enableBlend ()V[1609,1620]::enableBlend->func_179147_l
+Rename class net/minecraft/client/renderer/GlStateManager[1634,1648]::GlStateManager->GlStateManager
+Rename method net/minecraft/client/renderer/GlStateManager/color (FFFF)V[1649,1654]::color->func_179131_c
+Rename field net/minecraft/client/gui/GuiScreen/width[2175,2180]::width->field_146294_l
+Rename method net/minecraft/client/gui/Gui/drawTexturedModalRect (IIIIII)V[2442,2463]::drawTexturedModalRect->func_73729_b
+Rename method net/minecraft/client/gui/Gui/drawTexturedModalRect (IIIIII)V[2496,2517]::drawTexturedModalRect->func_73729_b
+Rename class net/minecraft/client/renderer/GlStateManager[2561,2575]::GlStateManager->GlStateManager
+Rename method net/minecraft/client/renderer/GlStateManager/disableBlend ()V[2576,2588]::disableBlend->func_179084_k
 [method, com/itelcan3/cloverclient/client/CustomGuiMainMenu/drawCustomBackground, ()V]
-Rename field net/minecraft/client/gui/GuiScreen/mc[2659,2661]::mc->field_146297_k
-Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[2674,2691]::getTextureManager->func_110434_K
-Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[2690,2701]::bindTexture->func_110577_a
-Rename class net/minecraft/client/renderer/Tessellator[2733,2744]::Tessellator->Tessellator
-Rename class net/minecraft/client/renderer/Tessellator[2759,2770]::Tessellator->Tessellator
-Rename method net/minecraft/client/renderer/Tessellator/getInstance ()Lnet/minecraft/client/renderer/Tessellator;[2771,2782]::getInstance->func_178181_a
-Rename class net/minecraft/client/renderer/WorldRenderer[2796,2809]::WorldRenderer->WorldRenderer
-Rename method net/minecraft/client/renderer/Tessellator/getWorldRenderer ()Lnet/minecraft/client/renderer/WorldRenderer;[2838,2854]::getWorldRenderer->func_178180_c
-Rename method net/minecraft/client/renderer/WorldRenderer/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[2877,2882]::begin->func_181668_a
-Rename class net/minecraft/client/renderer/vertex/DefaultVertexFormats[2894,2914]::DefaultVertexFormats->DefaultVertexFormats
-Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION_TEX[2915,2927]::POSITION_TEX->field_181707_g
-Rename method net/minecraft/client/renderer/WorldRenderer/pos (DDD)Lnet/minecraft/client/renderer/WorldRenderer;[2954,2957]::pos->func_181662_b
-Rename field net/minecraft/client/gui/GuiScreen/height[2987,2993]::height->field_146295_m
-Rename method net/minecraft/client/renderer/WorldRenderer/tex (DD)Lnet/minecraft/client/renderer/WorldRenderer;[3009,3012]::tex->func_181673_a
-Rename method net/minecraft/client/renderer/WorldRenderer/endVertex ()V[3035,3044]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/WorldRenderer/pos (DDD)Lnet/minecraft/client/renderer/WorldRenderer;[3074,3077]::pos->func_181662_b
-Rename field net/minecraft/client/gui/GuiScreen/width[3101,3106]::width->field_146294_l
-Rename field net/minecraft/client/gui/GuiScreen/height[3130,3136]::height->field_146295_m
-Rename method net/minecraft/client/renderer/WorldRenderer/tex (DD)Lnet/minecraft/client/renderer/WorldRenderer;[3152,3155]::tex->func_181673_a
-Rename method net/minecraft/client/renderer/WorldRenderer/endVertex ()V[3178,3187]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/WorldRenderer/pos (DDD)Lnet/minecraft/client/renderer/WorldRenderer;[3217,3220]::pos->func_181662_b
-Rename field net/minecraft/client/gui/GuiScreen/width[3244,3249]::width->field_146294_l
-Rename method net/minecraft/client/renderer/WorldRenderer/tex (DD)Lnet/minecraft/client/renderer/WorldRenderer;[3272,3275]::tex->func_181673_a
-Rename method net/minecraft/client/renderer/WorldRenderer/endVertex ()V[3298,3307]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/WorldRenderer/pos (DDD)Lnet/minecraft/client/renderer/WorldRenderer;[3337,3340]::pos->func_181662_b
-Rename method net/minecraft/client/renderer/WorldRenderer/tex (DD)Lnet/minecraft/client/renderer/WorldRenderer;[3369,3372]::tex->func_181673_a
-Rename method net/minecraft/client/renderer/WorldRenderer/endVertex ()V[3395,3404]::endVertex->func_181675_d
-Rename method net/minecraft/client/renderer/Tessellator/draw ()V[3432,3436]::draw->func_78381_a
-Rename method net/minecraft/client/gui/GuiScreen/drawBackground (I)V[3485,3499]::drawBackground->func_146278_c
+Rename field net/minecraft/client/gui/GuiScreen/mc[2655,2657]::mc->field_146297_k
+Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[2670,2687]::getTextureManager->func_110434_K
+Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[2686,2697]::bindTexture->func_110577_a
+Rename class net/minecraft/client/renderer/Tessellator[2729,2740]::Tessellator->Tessellator
+Rename class net/minecraft/client/renderer/Tessellator[2755,2766]::Tessellator->Tessellator
+Rename method net/minecraft/client/renderer/Tessellator/getInstance ()Lnet/minecraft/client/renderer/Tessellator;[2767,2778]::getInstance->func_178181_a
+Rename class net/minecraft/client/renderer/WorldRenderer[2792,2805]::WorldRenderer->WorldRenderer
+Rename method net/minecraft/client/renderer/Tessellator/getWorldRenderer ()Lnet/minecraft/client/renderer/WorldRenderer;[2834,2850]::getWorldRenderer->func_178180_c
+Rename method net/minecraft/client/renderer/WorldRenderer/begin (ILnet/minecraft/client/renderer/vertex/VertexFormat;)V[2873,2878]::begin->func_181668_a
+Rename class net/minecraft/client/renderer/vertex/DefaultVertexFormats[2890,2910]::DefaultVertexFormats->DefaultVertexFormats
+Rename field net/minecraft/client/renderer/vertex/DefaultVertexFormats/POSITION_TEX[2911,2923]::POSITION_TEX->field_181707_g
+Rename method net/minecraft/client/renderer/WorldRenderer/pos (DDD)Lnet/minecraft/client/renderer/WorldRenderer;[2950,2953]::pos->func_181662_b
+Rename field net/minecraft/client/gui/GuiScreen/height[2983,2989]::height->field_146295_m
+Rename method net/minecraft/client/renderer/WorldRenderer/tex (DD)Lnet/minecraft/client/renderer/WorldRenderer;[3005,3008]::tex->func_181673_a
+Rename method net/minecraft/client/renderer/WorldRenderer/endVertex ()V[3031,3040]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/WorldRenderer/pos (DDD)Lnet/minecraft/client/renderer/WorldRenderer;[3070,3073]::pos->func_181662_b
+Rename field net/minecraft/client/gui/GuiScreen/width[3097,3102]::width->field_146294_l
+Rename field net/minecraft/client/gui/GuiScreen/height[3126,3132]::height->field_146295_m
+Rename method net/minecraft/client/renderer/WorldRenderer/tex (DD)Lnet/minecraft/client/renderer/WorldRenderer;[3148,3151]::tex->func_181673_a
+Rename method net/minecraft/client/renderer/WorldRenderer/endVertex ()V[3174,3183]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/WorldRenderer/pos (DDD)Lnet/minecraft/client/renderer/WorldRenderer;[3213,3216]::pos->func_181662_b
+Rename field net/minecraft/client/gui/GuiScreen/width[3240,3245]::width->field_146294_l
+Rename method net/minecraft/client/renderer/WorldRenderer/tex (DD)Lnet/minecraft/client/renderer/WorldRenderer;[3268,3271]::tex->func_181673_a
+Rename method net/minecraft/client/renderer/WorldRenderer/endVertex ()V[3294,3303]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/WorldRenderer/pos (DDD)Lnet/minecraft/client/renderer/WorldRenderer;[3333,3336]::pos->func_181662_b
+Rename method net/minecraft/client/renderer/WorldRenderer/tex (DD)Lnet/minecraft/client/renderer/WorldRenderer;[3365,3368]::tex->func_181673_a
+Rename method net/minecraft/client/renderer/WorldRenderer/endVertex ()V[3391,3400]::endVertex->func_181675_d
+Rename method net/minecraft/client/renderer/Tessellator/draw ()V[3428,3432]::draw->func_78381_a
+Rename method net/minecraft/client/gui/GuiScreen/drawBackground (I)V[3481,3495]::drawBackground->func_146278_c
 Import: net.minecraft.client.gui.GuiButton
 Import: net.minecraft.client.gui.GuiMainMenu
 Import: net.minecraft.client.gui.ScaledResolution

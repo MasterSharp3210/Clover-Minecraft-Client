@@ -3,8 +3,8 @@ package com.itelcan3.cloverclient;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent; // Import mancante
-import net.minecraftforge.common.MinecraftForge; // Import mancante
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent; 
+import net.minecraftforge.common.MinecraftForge; 
 
 import com.itelcan3.cloverclient.client.ClientEventHandler;
 import com.itelcan3.cloverclient.client.CapeHandler;

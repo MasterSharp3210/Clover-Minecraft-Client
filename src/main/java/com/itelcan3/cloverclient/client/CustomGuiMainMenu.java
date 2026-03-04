@@ -31,7 +31,7 @@ public class CustomGuiMainMenu extends GuiMainMenu {
         for (int i = 0; i < this.buttonList.size(); ++i) {
             ((GuiButton)this.buttonList.get(i)).drawButton(this.mc, mouseX, mouseY);
         }
-        this.drawString(this.fontRendererObj, "Clover Client 1.0", 2, this.height - 10, -1);
+        this.drawString(this.fontRendererObj, "Clover Client", 2, this.height - 10, -1);
     }
 
     private void drawCenteredLogo(int y) {
